@@ -1,5 +1,5 @@
 # ThreadBasic
-[전체코드보기]()  
+[전체코드보기](https://github.com/Youngho-Kim/ThreadBasic/blob/master/app/src/main/java/com/android/kwave/threadbasic/ThreadBasicActivity.java)  
 
 // Thread 생성  
     Thread thread = new Thread();    
