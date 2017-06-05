@@ -1,6 +1,6 @@
 # ThreadBasic
 [전체코드보기](https://github.com/Youngho-Kim/ThreadBasic/blob/master/app/src/main/java/com/android/kwave/threadbasic/ThreadBasicActivity.java)  
-
+```java
 // Thread 생성  
     Thread thread = new Thread();    
 // Thread 실행  
@@ -26,3 +26,4 @@ class CustomRunnable implements Runnable{
         Log.i("Thread Test","Hello Custom Runnable");
     }
 }
+```
