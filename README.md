@@ -6,12 +6,12 @@
 // Thread 실행  
     thread.start();  
     
-// Thread 생성2  
+// Runnable Thread 생성1  
 Runnable thread2 = new Runnable(){}    
 // Thread 실행2  
         new Thread(thread2).start();  
         
-// 3.1 Thread 생성
+// 3.1 Thread 생성2
 class CustomThread extends Thread{
    @Override
     public void run() {
@@ -19,7 +19,7 @@ class CustomThread extends Thread{
     }
 }  
 
-// 4.1 Thread 생성
+// 4.1 Runnable Thread 생성2
 class CustomRunnable implements Runnable{
     @Override
     public void run() {
